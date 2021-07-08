@@ -3,5 +3,42 @@
 }
 
 body {
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: #004175;
+    color: #ffffff;
+    padding: 30px;
+    border-bottom: 3px solid #89deef;
+    max-height: 125px;
+    }
+
+section {
+    padding: 30px;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+}
+.dog-card {
     background-color: bisque;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: #89deef;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 400px;
+    max-height: auto;
 }
