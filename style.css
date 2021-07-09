@@ -14,9 +14,10 @@ body {
 header {
     background-color: #004175;
     color: #ffffff;
-    padding: 30px;
+    padding: 10px;
     border-bottom: 3px solid #89deef;
     max-height: 125px;
+    align-content: center;
     }
 
 section {
@@ -26,13 +27,27 @@ section {
 h3 {
     font-family: "Oswald", sans-serif;
 }
+
+.dogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .dog-card {
     background-color: bisque;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
 }
 
 ul {
     padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -45,6 +60,10 @@ ul li {
 }
 
 img {
-    max-width: 400px;
+    max-width: 100%;
     max-height: auto;
+}
+
+footer {
+    display: flex;
 }
