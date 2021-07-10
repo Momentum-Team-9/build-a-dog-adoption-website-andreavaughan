@@ -58,7 +58,7 @@ ul li {
     display: inline;
 }
 
-img {
+.dog-card img {
     max-width: 100%;
     max-height: auto;
 }
@@ -66,15 +66,42 @@ img {
 footer {
     display: flex;
     font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    color: #ffffff;
 }
 
-.footer-card {
-    background-image: url(starter_files/images/donate.jpg);
-    background-color: #a6a9f0;
+.footer-card-1 {
+    background-image: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)), url(starter_files/images/donate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     flex: 1 1 auto;
     height: 300px;
     justify-content: center;
     align-items: center;
+    max-width: 33.3%;
+}
 
+.footer-card-2 {
+    background-image: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)), url(starter_files/images/volunteer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    max-width: 33.3%;
+}
+
+.footer-card-3 {
+    background-image: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)), url(starter_files/images/location.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    max-width: 33.3%;
 }
